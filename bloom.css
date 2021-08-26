@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+html, body {
+    margin: 0;
+    
+}
+
+.nav ul{
+    margin:0; 
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    padding: .5cm;
+    color:darkblue;
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align:center;
+    font-size: 1.1cm;
+    font-weight: lighter;
+    border-bottom: 1px solid
+}
+
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-size: 15px;
+    
+}
+
+.block1, .block2{
+    width: 40%;
+    float: left;
+
+}
+
+@media (max-width: 400px) {
+    .block1{
+        width: 50%;
+    }
+}
+    .block2{
+        width: 80%;
+    }
+
+.counter{
+    max-width: 100px;
+}
+
